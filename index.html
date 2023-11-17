@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echoes Of Eternity - Book Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Your Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navigation Bar -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Echoes Of Eternity</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#reviewAccordion">Reviews</a>
+                <a class="nav-link" href="#publisher">Publisher</a>
+                <a class="nav-link" href="#fromAuthor">From Author</a>
+              </div>
+              <!--collapse navbar-collapse-->
+            </div>
+          </div>
+          <!--container fluid-->
+        </nav>
+      </header>
+
+      <main class="container mt-4">
+        <div class="row mb-5">
+            <div class="col-6">
+        <!-- Book Cover Image -->
+        <section>
+          <div class="text-center">
+            <img src="images/book.jpg" alt="Book Cover" class="img-fluid" />
+          </div>
+          <!--text-center-->
+        </section>
+    </div><!--col-6-->
+    <div class="col-6">
+        <!-- Author's Section -->
+        <section class="text-center mt-4">
+          <img
+            src="images/author.jpg"
+            alt="Author"
+            class="img-fluid rounded-circle"
+            style="width: 150px; height: 150px"
+          />
+          <h1>Aaron Dembski-Bowden</h1>
+          <p>
+            Aaron Dembski-Bowden is the author of the Horus Heresy novels The
+            Master of Mankind, Betrayer and The First Heretic, as well as the
+            novella Aurelian and the audio drama Butcher’s Nails, for the same
+            series. He has also written the Warhammer 40,000 novel Spear of the
+            Emperor, the popular Night Lords series, the Space Marine Battles
+            book Armageddon, the novels The Talon of Horus and Black Legion, the
+            Grey Knights novel The Emperor’s Gift and numerous short stories. He
+            lives and works in Northern Ireland.
+          </p>
+        </section>
+    </div>
+        <!--text-center-->
+    </div><!--row-->
+        <!-- Synopsis/Excerpt Section -->
+        <section class="mt-4 mb-4">
+          <h2>Synopsis</h2>
+          <p>
+            The walls have fallen. The defenders’ unity is broken. The Inner
+            Palace lies in ruins. The Warmaster’s horde advances through the
+            fire and ash of Terra’s dying breaths, forcing the loyalists back to
+            the Delphic Battlement, the very walls of the Sanctum Imperialis.
+            Angron, Herald of Horus, has achieved immortality through
+            annihilation – now he leads the armies of the damned in a wrathful
+            tide, destroying all before them as the warp begins its poisonous
+            corruption of Terra. For the Emperor’s beleaguered forces, the end
+            has come. The Khan lies on the edge of death. Rogal Dorn is
+            encircled, fighting his own war at Bhab Bastion. Guilliman will not
+            reach Terra in time. Without his brothers, Sanguinius – the Angel of
+            the Ninth Legion – waits on the final battlements, hoping to rally a
+            desperate band of defenders and refugees for one last stand.
+          </p>
+        </section>
+
+        <!-- Reviews Section -->
+        <div class="accordion" id="reviewAccordion">
+          <h2>Reviews</h2>
+          <!-- Review 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="review1Header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseReview1"
+                aria-expanded="true"
+                aria-controls="collapseReview1"
+              >
+                Review
+              </button>
+            </h2>
+            <div
+              id="collapseReview1"
+              class="accordion-collapse collapse show"
+              aria-labelledby="review1Header"
+              data-bs-parent="#reviewAccordion"
+            >
+              <div class="accordion-body">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img
+                      src="images/reviewer1.jpg"
+                      alt="pic taken from pexels 'Andrea Piacquadio'"
+                      class="img-thumbnail rounded-circle"
+                      style="width: 200px; height: 200px"
+                    />
+                    <h3 class="card-title">~Eleanor</h3>
+                    <p class="card-text">
+                      "An intriguing story that weaves together elements of
+                      fantasy and science fiction with some simplicity."
+                    </p>
+                  </div>
+                  <!--card-body-->
+                </div>
+                <!--card-->
+              </div>
+              <!--accordion-body-->
+            </div>
+            <!--collapseReview1-->
+          </div>
+          <!--accordion-item-->
+
+          <!-- Review 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="review2Header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseReview2"
+                aria-expanded="false"
+                aria-controls="collapseReview2"
+              >
+                Review
+              </button>
+            </h2>
+            <div
+              id="collapseReview2"
+              class="accordion-collapse collapse"
+              aria-labelledby="review2Header"
+              data-bs-parent="#reviewAccordion"
+            >
+              <div class="accordion-body">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img
+                      src="images/reviewer2.jpg"
+                      alt="Pic taken from pexels 'cottonbro studio'"
+                      class="img-thumbnail rounded-circle"
+                      style="width: 200px; height: 200px"
+                    />
+                    <h3 class="card-title">~Sebastian</h3>
+                    <p class="card-text">
+                      "Aaron Dembski-Bowden's storytelling skills shine in
+                      'Echoes of Eternity.' A must-read for fans of complex
+                      world-building."
+                    </p>
+                  </div>
+                  <!--card-body-->
+                </div>
+                <!--card-->
+              </div>
+              <!--accordion-body-->
+            </div>
+            <!--collapseReview2-->
+          </div>
+          <!--accordion-item-->
+
+          <!-- Review 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="review3Header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseReview3"
+                aria-expanded="false"
+                aria-controls="collapseReview3"
+              >
+                Review
+              </button>
+            </h2>
+            <div
+              id="collapseReview3"
+              class="accordion-collapse collapse"
+              aria-labelledby="review3Header"
+              data-bs-parent="#reviewAccordion"
+            >
+              <div class="accordion-body">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img
+                      src="images/reviewer3.jpg"
+                      alt="pic taken from pexels 'Andrea Piacquadio'"
+                      class="img-thumbnail rounded-circle"
+                      style="width: 200px; height: 200px"
+                    />
+                    <h3 class="card-title">~Avery</h3>
+                    <p class="card-text">
+                      "A thrilling adventure that keeps you on the edge of your
+                      seat until the end."
+                    </p>
+                  </div>
+                  <!--card-body-->
+                </div>
+                <!--card-->
+              </div>
+              <!--accordion-body-->
+            </div>
+            <!--collapseReview3-->
+          </div>
+          <!--accordion-item-->
+        </div>
+        <!--accordion-->
+
+        <!-- Publisher's Information Section -->
+        <section class="mt-4" id="publisher">
+          <h2>Publisher Information</h2>
+          <!-- Tab Panel for Publisher's Data -->
+          <ul class="nav nav-tabs" id="publisherTab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                href="#contact"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="true"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="about-tab"
+                data-bs-toggle="tab"
+                href="#about"
+                role="tab"
+                aria-controls="about"
+                aria-selected="false"
+                >About</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content mt-3" id="publisherTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="contact"
+              role="tabpanel"
+              aria-labelledby="contact-tab"
+            >
+              <p>
+                Publisher's Name:
+                <a href="https://www.warhammer.com/en-GB/home"> Workshop </a>
+              </p>
+              <p>Contact: <a href="tel:+6474287122">647 428-7122</a></p>
+              <p>
+                Address:
+                <a href="https://maps.app.goo.gl/Suo1q1Yf6ngjmhEx7"
+                  >3251 Yonge St, Toronto, ON M4N 2L5</a
+                >
+              </p>
+            </div>
+            <!--taxt-pane fade show active-->
+            <div
+              class="tab-pane fade"
+              id="about"
+              role="tabpanel"
+              aria-labelledby="about-tab"
+            >
+              <p>
+                Games Workshop is the largest and the most successful hobby
+                miniatures company in the world. Our major brands are Warhammer
+                and Warhammer 40,000. In addition, we hold a licence for The
+                Lord of the Rings/the Hobbit tabletop battle game. At its core
+                the Hobby is all about our amazing miniatures and collecting,
+                modelling, painting and playing games with armies of them are
+                activities enjoyed by millions of adherents all across the
+                world.
+              </p>
+              
+            </div>
+            <!--tab-pane fade-->
+          </div>
+          <!--taxt-content mt-3-->
+        </section>
+
+        <!-- Carousel Section -->
+        <section class="mt-4 mb-5" id="fromAuthor">
+          <h2>Other Books by the Author</h2>
+          <!-- Bootstrap Carousel -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></li>
+              <li data-bs-target="#carouselExampleControls" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      class="d-block w-100"
+                      src="images/blackLegion.jpg"
+                      alt="Black Legion"
+                    />
+                  </div> <!--col-->
+                  <div class="col-8">
+                    <h3>Black Legion</h3>
+                    <p>
+                      Ezekyle Abaddon and his warlords strive to bind the
+                      newborn Black Legion together under threat of destruction.
+                      Now Khayon, as Abaddon's most-trusted assassin, is tasked
+                      with ending the threat of Thagus Daravek, the
+                      self-proclaimed Lord of Hosts - a rival to Ezekyle's final
+                      fate. Fighting the vile whispers of the Dark Gods within
+                      his mind, Abaddon turns a fevered gaze back to the
+                      Imperium, where his destiny awaits. Yet the Emperor's
+                      Champion and his Black Templars stand guard at the gates
+                      of Hell, and Sigismund has waited centuries to face
+                      Abaddon in battle.
+                    </p>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div> <!--col-->
+                </div><!--row-->
+              </div><!--carousel-item-->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      class="d-block w-100"
+                      src="images/soulHunter.jpg"
+                      alt="Soul Hunter"
+                    />
+                  </div> <!--col-->
+                  <div class="col-8">
+                    <h3>Soul Hunter</h3>
+                    <p>
+                        Betrayed, cast from the Emperor's light and hunted as heretics, they are the rebels of the 41st millennium. Garbed in symbols of death, the Night Lords are remorseless hunters and killers. They will never repent for the blasphemies that saw them banished. They prey upon the dying Imperium, bringing death from the darkness between worlds.
+                    </p>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div> <!--col-->
+                </div><!--row-->
+              </div><!--carousel-item-->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      class="d-block w-100"
+                      src="images/voidStalker.jpg"
+                      alt="Void Stalker"
+                    />
+                  </div> <!--col-->
+                  <div class="col-8">
+                    <h3>Void Stalker</h3>
+                    <p>
+                        The hunters have become the hunted. The Night Lords flee to the dark fringes of the Imperium to escape their relentless pursuers – the eldar of Craftworld Ulthwé. Their flight takes them to the carrion world of Tsagualsa, where their primarch died and their Legion was broken. There, history will repeat itself as a deadly assassin stalks the shadows, and the Night Lords are drawn into a battle they are destined to lose.
+                    </p>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div> <!--col-->
+                </div><!--row-->
+              </div><!--carousel-item-->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      class="d-block w-100"
+                      src="images/theFirstHeretic.jpg"
+                      alt="The Firsy Heretic"
+                    />
+                  </div> <!--col-->
+                  <div class="col-8">
+                    <h3>The Firsy Heretic</h3>
+                    <p>
+                        Amidst the galaxy-wide war of the Great Crusade, the Emperor castigates the Word Bearers for their worship. Distraught at this judgement, Lorgar and his Legion seek another path while devastating world after world, venting their fury and fervour on the battlefield. Their search for a new purpose leads them to the edge of the material universe, where they meet ancient forces far more powerful than they could have imagined. Having set out to illuminate the Imperium, the corruption of Chaos takes hold and their path to damnation begins. Unbeknownst to the Word Bearers, their quest for truth contains the very roots of heresy...
+                    </p>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                  </div> <!--col-->
+                </div><!--row-->
+              </div><!--carousel-item-->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div><!--carouselExampleCOntrols-->
+        </section>
+      </main>
+    </div>
+    <!--container-->
+    <!-- Bootstrap JS and jQuery (place at the end of body to load faster) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
